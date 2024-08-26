@@ -25,7 +25,19 @@ sudo apt update
 # Install Docker Engine
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+# Add Docker Group so that you can run Docker commands without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+
 # Start and enable Docker service
 sudo systemctl start docker
 sudo systemctl enable docker
-sudo systemctl status docker
+
+# Verify the installation
+echo "----------------------------------------"
+echo "Docker has been installed successfully."
+echo "----------------------------------------"
+echo "To verify the installation, run the following command:"
+echo "docker run hello-world"
+echo "----------------------------------------"
