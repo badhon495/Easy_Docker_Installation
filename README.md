@@ -6,13 +6,13 @@ Skip the manual and get Docker up and running with a single click! This streamli
 ### Kali Linux
 
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/kali.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/kali.sh | bash
 ```
 ### Linux Mint Debian Edition
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/LMDE.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/LMDE.sh | bash
 ```
 ### Fedora
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/fedora.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Fedora.sh | bash
 ```
