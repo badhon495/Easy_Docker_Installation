@@ -13,7 +13,7 @@ sudo groupdel docker
 curl -fsSL https://download.docker.com/linux/debian/gpg
 
 # Install Docker Engine
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt install -y docker.io
 
 # Start and enable Docker service
 sudo systemctl start docker
