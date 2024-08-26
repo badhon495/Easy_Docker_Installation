@@ -32,6 +32,7 @@ sudo systemctl enable docker
 echo "----------------------------------------"
 echo "Docker has been installed successfully."
 echo "----------------------------------------"
-echo "To verify the installation, run the following command:"
+echo "Now reboot your system to apply the changes then run the following command to verify the installation:"
+echo "----------------------------------------"
 echo "docker run hello-world"
 echo "----------------------------------------"
