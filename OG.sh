@@ -1,8 +1,5 @@
 #!/usr/bin/bash
 
-# Redirect all output (stdout) and errors (stderr) to /dev/null
-exec >/dev/null 2>&1
-
 # Uninstall Docker-related packages
 packages="docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc"
 sudo apt remove -y $packages docker-engine docker docker-ce docker-ce-cli docker-compose-plugin
