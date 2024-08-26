@@ -6,6 +6,9 @@ sudo apt autoremove -y --purge
 sudo apt-get autoclean -y
 sudo rm -rf /var/lib/docker /etc/docker /var/lib/containerd /etc/apparmor.d/docker /var/run/docker.sock
 sudo rm -rf /usr/local/bin/docker-compose*
+sudo rm -rf /var/run/docker.sock
+sudo rm -rf /usr/local/bin/docker*
+sudo find / -iname 'docker*' -exec rm -rf {} +
 
 # Remove Docker group
 sudo groupdel docker
@@ -26,4 +29,9 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 # Verify the installation
-echo "Docker has been installed successfully. Run 'docker run hello-world' to verify the installation."
+echo "----------------------------------------"
+echo "Docker has been installed successfully."
+echo "----------------------------------------"
+echo "To verify the installation, run the following command:"
+echo "docker run hello-world"
+echo "----------------------------------------"
