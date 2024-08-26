@@ -17,15 +17,11 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
-# Start and enable Docker service
+# Start and enable Docker service and verify the installation
 sudo systemctl start docker
 sudo systemctl enable docker
+docker run hello-world
 
-# Verify the installation
 echo "----------------------------------------"
 echo "Docker has been installed successfully."
-echo "----------------------------------------"
-echo "Now reboot your system to apply the changes then run the following command to verify the installation:"
-echo "----------------------------------------"
-echo "docker run hello-world"
 echo "----------------------------------------"

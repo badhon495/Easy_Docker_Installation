@@ -3,6 +3,7 @@ packages="docker.io docker-doc docker-compose docker-compose-v2 podman-docker co
 sudo apt remove -y $packages docker-engine docker docker-ce docker-ce-cli docker-compose-plugin
 sudo apt purge -y docker-engine docker docker.io docker-ce docker-compose-plugin
 sudo apt autoremove -y --purge
+sudo apt-get autoclean -y
 sudo rm -rf /var/lib/docker /etc/docker /var/lib/containerd /etc/apparmor.d/docker /var/run/docker.sock
 sudo rm -rf /usr/local/bin/docker-compose*
 
@@ -30,16 +31,11 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 
-# Start and enable Docker service
+# Start and enable Docker service and verify the installation
 sudo systemctl start docker
 sudo systemctl enable docker
-
-# Verify the installation
+docker run hello-world
 
 echo "----------------------------------------"
 echo "Docker has been installed successfully."
-echo "----------------------------------------"
-echo "Now reboot your system to apply the changes then run the following command to verify the installation:"
-echo "----------------------------------------"
-echo "docker run hello-world"
 echo "----------------------------------------"
