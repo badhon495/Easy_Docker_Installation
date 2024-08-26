@@ -12,3 +12,7 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installa
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/LMDE.sh | bash
 ```
+### Fedora
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/fedora.sh | bash
+```
