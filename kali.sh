@@ -15,6 +15,11 @@ curl -fsSL https://download.docker.com/linux/debian/gpg
 # Install Docker Engine
 sudo apt install -y docker.io
 
+# Add Docker Group so that you can run Docker commands without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+
 # Start and enable Docker service
 sudo systemctl start docker
 sudo systemctl enable docker
