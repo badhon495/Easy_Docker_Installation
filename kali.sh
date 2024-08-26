@@ -10,17 +10,7 @@ sudo rm -rf /usr/local/bin/docker-compose*
 sudo groupdel docker
 
 # Add Docker repository and GPG key
-sudo apt update
-sudo apt install -y ca-certificates curl
-sudo mkdir -p /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add Docker's official repository
-source /etc/os-release
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian $VERSION_CODENAME stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
+curl -fsSL https://download.docker.com/linux/debian/gpg
 
 # Install Docker Engine
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
