@@ -10,5 +10,5 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installa
 ```
 ### Linux Mint Debian Edition
 ```bash
-https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/LMDE.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/LMDE.sh | bash
 ```
