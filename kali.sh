@@ -8,7 +8,7 @@ sudo rm -rf /var/lib/docker /etc/docker /var/lib/containerd /etc/apparmor.d/dock
 sudo rm -rf /usr/local/bin/docker-compose*
 sudo rm -rf /var/run/docker.sock
 sudo rm -rf /usr/local/bin/docker*
-sudo find / -iname 'docker*' -exec rm -rf {} +
+sudo find / -iname 'docker*' -exec sudo rm -rf {} +
 
 # Remove Docker group
 sudo groupdel docker
