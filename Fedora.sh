@@ -11,6 +11,9 @@ sudo dnf -y remove \
   docker-engine-selinux \
   docker-engine
 
+# Remove Docker group
+sudo groupdel docker
+
 # Install DNF plugins core
 sudo dnf -y install dnf-plugins-core
 
@@ -25,9 +28,16 @@ sudo dnf -y install \
   docker-buildx-plugin \
   docker-compose-plugin
 
-# Start and enable Docker service
+# Add Docker Group so that you can run Docker commands without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+
+# Start and enable Docker service and verify the installation
 sudo systemctl start docker
 sudo systemctl enable docker
-
-# Verify Docker installation
 docker run hello-world
+
+echo "----------------------------------------"
+echo "Docker has been installed successfully."
+echo "----------------------------------------"
