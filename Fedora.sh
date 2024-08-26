@@ -1,5 +1,5 @@
-# Remove existing Docker packages
-sudo dnf remove \
+# Remove existing Docker packages without prompting for confirmation
+sudo dnf -y remove \
   docker \
   docker-client \
   docker-client-latest \
@@ -31,7 +31,3 @@ sudo systemctl enable docker
 
 # Verify Docker installation
 docker run hello-world
-
-echo "----------------------------------------"
-echo "Docker has been installed successfully."
-echo "----------------------------------------"
