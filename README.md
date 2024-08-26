@@ -1,0 +1,2 @@
+# Easy-Debian-Docker-Installation
+Skip the manual and get Docker up and running with a single click! This streamlined shell script handles everything—from uninstalling old packages to setting up Docker on your Debian-based system. No fuss, no hassle—just pure automation. Perfect for anyone who wants Docker installed quickly and efficiently! 
