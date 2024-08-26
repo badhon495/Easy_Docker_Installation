@@ -8,3 +8,7 @@ Skip the manual and get Docker up and running with a single click! This streamli
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/kali.sh | bash
 ```
+### Linux Mint Debian Edition
+```bash
+https://raw.githubusercontent.com/badhon495/Easy-Debian-Docker-Installation/main/LMDE.sh | bash
+```
