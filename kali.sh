@@ -1,14 +1,7 @@
 # Uninstall Docker-related packages
-packages="docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc"
-sudo apt remove -y $packages docker-engine docker docker-ce docker-ce-cli docker-compose-plugin
-sudo apt purge -y docker-engine docker docker.io docker-ce docker-compose-plugin
+sudo apt remove -y docker.io docker-compose
 sudo apt autoremove -y --purge
 sudo apt-get autoclean -y
-sudo rm -rf /var/lib/docker /etc/docker /var/lib/containerd /etc/apparmor.d/docker /var/run/docker.sock
-sudo rm -rf /usr/local/bin/docker-compose*
-sudo rm -rf /var/run/docker.sock
-sudo rm -rf /usr/local/bin/docker*
-sudo find / -iname 'docker*' -exec sudo rm -rf {} +
 
 # Remove Docker group
 sudo groupdel docker
