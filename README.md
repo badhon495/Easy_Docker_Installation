@@ -16,3 +16,7 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Fedora.sh | bash
 ```
+### Linux Mint
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Mint.sh | bash
+```
