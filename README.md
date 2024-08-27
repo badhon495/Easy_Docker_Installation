@@ -53,6 +53,12 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
 ```
 
+### OpenSUSE
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/OpenSUSE.sh | bash
+```
+
 ### Ubuntu
 
 ```bash
