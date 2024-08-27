@@ -18,7 +18,7 @@ If one-click installation doesn't work, you can use the following commands to in
 ### Kali Linux
 
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/kali.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Kali.sh | bash
 ```
 
 ### Linux Mint Debian Edition
