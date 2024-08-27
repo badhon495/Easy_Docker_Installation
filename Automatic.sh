@@ -37,9 +37,10 @@ if [ -f /etc/os-release ]; then
         curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
 
     # Check if the distribution is OpenSUSE
-    elif [ "$NAME" = "openSUSE Leap" ]; then
-        echo "OpenSUSE detected. Executing the command..."
-        curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/OpenSUSE.sh | bash
+    elif [ "$NAME" = "openSUSE Leap" ] || [ "$NAME" = "openSUSE Tumbleweed" ]; then
+    echo "OpenSUSE detected. Executing the command..."
+    curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/OpenSUSE.sh | bash
+
 
     # Check if the distribution is Ubuntu
     elif [ "$NAME" = "Ubuntu" ]; then
