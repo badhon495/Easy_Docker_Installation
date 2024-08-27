@@ -5,6 +5,8 @@ This project is currently available for Kali Linux, Linux Mint Debian Edition, F
 
 ## One Click Installation
 
+Please make sure you have curl installed on your system. If not, then go to this [Installing curl](https://github.com/badhon495/Easy_Docker_Installation/tree/main?tab=readme-ov-file#manual-installation) section to install curl on your system.
+
 Run this following command on the terminal to install Docker with a single click:
 
 ```bash
@@ -56,6 +58,29 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Ubuntu.sh | bash
 ```
+
+## Installing curl
+To install curl on your system, run the following command:
+
+### Debian-based systems
+
+```bash 
+sudo apt update
+sudo apt install curl
+```
+
+### Fedora
+
+```bash
+sudo dnf install curl
+```
+
+### CentOS
+
+```bash
+sudo yum install curl
+```
+
 
 ## Contribution
 
