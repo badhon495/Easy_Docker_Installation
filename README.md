@@ -15,28 +15,34 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 
 If one-click installation doesn't work, you can use the following commands to install Docker on your system manually. Before running any of these commands run `sudo cat /etc/os-release` to know what are you currently using:
 
-### Kali Linux
-
-```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Kali.sh | bash
-```
-
-### Linux Mint Debian Edition
-
-```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
-```
-
 ### Fedora
 
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Fedora.sh | bash
 ```
 
+### Debian
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Debian.sh | bash
+```
+
+### Kali Linux
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Kali.sh | bash
+```
+
 ### Linux Mint
 
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Mint.sh | bash
+```
+
+### Linux Mint Debian Edition
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
 ```
 
 ## Contribution
