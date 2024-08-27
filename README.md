@@ -1,11 +1,11 @@
 # Easy-Docker-Installation
 
 Skip the manual and get Docker up and running with a single click! This streamlined shell script handles everything—from uninstalling old packages to setting up Docker on your Debian-based system. No fuss, no hassle—just pure automation. Perfect for anyone who wants Docker installed quickly and efficiently!
-This project is currently available for Kali Linux, Linux Mint Debian Edition, Fedora, and Linux Mint.
+This project is currently available for **Kali Linux, Ubuntu, CentOS, Debian, OpenSUSE, Linux Mint Debian Edition, Fedora, and Linux Mint**.
 
 ## One Click Installation
 
-Please make sure you have curl installed on your system. If not, then go to this [Installing curl](https://github.com/badhon495/Easy_Docker_Installation/tree/main?tab=readme-ov-file#installing-curl) section to install curl on your system.
+Ensure `curl` is installed on your system. If not, follow [this guide](https://github.com/badhon495/Easy_Docker_Installation/tree/main?tab=readme-ov-file#installing-curl).
 
 Run this following command on the terminal to install Docker with a single click:
 
@@ -15,7 +15,7 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 
 ## Manual Installation
 
-If one-click installation doesn't work, you can use the following commands to install Docker on your system manually. Before running any of these commands run `sudo cat /etc/os-release` to know what are you currently using:
+If one-click installation fails, you can manually install Docker using the commands below. First, determine your OS by running `sudo cat /etc/os-release`. Ensure `curl` is installed on your system. If not, follow [this guide](https://github.com/badhon495/Easy_Docker_Installation/tree/main?tab=readme-ov-file#installing-curl).
 
 ### CentOS
 
@@ -66,9 +66,9 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 ```
 
 ## Installing curl
-To install curl on your system, run the following command:
+To install curl, use the following commands based on your system:
 
-### Debian-based systems
+### Debian-based systems/ Ubuntu
 
 ```bash 
 sudo apt update
@@ -85,6 +85,12 @@ sudo dnf install curl
 
 ```bash
 sudo yum install curl
+```
+
+### OpenSUSE
+
+```bash
+sudo zypper install curl
 ```
 
 
