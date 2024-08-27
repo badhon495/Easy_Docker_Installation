@@ -3,8 +3,12 @@ Skip the manual and get Docker up and running with a single click! This streamli
 
 
 ## Installation
-### Kali Linux
+### Run this following command in your terminal to install Docker on your system with a single click:
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Automatic.sh | bash
 
+
+## Supported Systems
+### Kali Linux
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/kali.sh | bash
 ```
