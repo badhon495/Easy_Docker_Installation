@@ -15,6 +15,12 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 
 If one-click installation doesn't work, you can use the following commands to install Docker on your system manually. Before running any of these commands run `sudo cat /etc/os-release` to know what are you currently using:
 
+### CentOS
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/CentOS.sh | bash
+```
+
 ### Fedora
 
 ```bash
@@ -43,6 +49,12 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 
 ```bash
 curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
+```
+
+### Ubuntu
+
+```bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Ubuntu.sh | bash
 ```
 
 ## Contribution

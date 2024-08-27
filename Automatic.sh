@@ -11,6 +11,11 @@ if [ -f /etc/os-release ]; then
         echo "Fedora detected. Executing the command..."
         curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Fedora.sh | bash
 
+    # Check if the distribution is CentOS
+    elif [ "$NAME" = "CentOS Linux" ]; then
+        echo "CentOS detected. Executing the command..."
+        curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/CentOS.sh | bash
+
     # Check if the distribution is Kali Linux
     elif [ "$NAME" = "Kali GNU/Linux" ]; then
         echo "Kali Linux detected. Executing the command..."
