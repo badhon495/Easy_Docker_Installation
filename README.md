@@ -24,19 +24,19 @@ curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/ma
 ### Linux Mint Debian Edition
 
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/LMDE.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/LMDE.sh | bash
 ```
 
 ### Fedora
 
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Fedora.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Fedora.sh | bash
 ```
 
 ### Linux Mint
 
 ```bash
-curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Mint.sh | bash
+curl -sL https://raw.githubusercontent.com/badhon495/Easy_Docker_Installation/main/Scripts/Mint.sh | bash
 ```
 
 ## Contribution
