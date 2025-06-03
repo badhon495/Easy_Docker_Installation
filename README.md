@@ -1,7 +1,16 @@
+<div align="center">
+
+
 # Easy-Docker-Installation
+
+![Shell Script](https://img.shields.io/badge/Shell-Script-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Compatible-FCC624?style=flat-square&logo=linux&logoColor=black)
+
 
 Skip the manual and get Docker up and running with a single click! This streamlined shell script handles everything—from uninstalling old packages to setting up Docker on your Debian-based system. No fuss, no hassle—just pure automation. Perfect for anyone who wants Docker installed quickly and efficiently!
 This project is currently available for **Kali Linux, Ubuntu, CentOS, Debian, OpenSUSE, Linux Mint Debian Edition, Fedora, and Linux Mint**.
+
+</div>
 
 ## One Click Installation
 
@@ -97,3 +106,9 @@ sudo zypper install curl
 ## Contribution
 
 As I could not do write the script for all the Linux distributions, I would appreciate if you could contribute to this project by writing a script for your distribution. Just follow the format of the existing scripts and make a pull request. I will review it and merge it if it works.
+
+---
+
+<div align="center">
+  <p>⭐ Star this repo if you found it helpful!</p>
+</div>
