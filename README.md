@@ -1,7 +1,7 @@
 <div align="center">
 
 
-# Easy-Docker-Installation
+# Easy Docker Installation
 
 ![Shell Script](https://img.shields.io/badge/Shell-Script-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-Compatible-FCC624?style=flat-square&logo=linux&logoColor=black)
